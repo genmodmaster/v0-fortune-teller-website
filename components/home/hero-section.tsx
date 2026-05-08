@@ -50,7 +50,7 @@ export function HeroSection() {
         </p>
         
         <p className="text-base md:text-lg text-foreground/80 max-w-2xl mx-auto mb-12 leading-relaxed">
-          Odkryj mądrość kart, gwiazd i energii systemowych. Pozwól, że poprowadzę Cię ku jaśniejszej przyszłości.
+          Odkryj mądrość kart, gwiazd i energii systemowych. Pozwól, że poprowadzę Ciebie ku jaśniejszej przyszłości.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
