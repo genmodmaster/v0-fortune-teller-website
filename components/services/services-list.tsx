@@ -54,13 +54,13 @@ const serviceCategories = [
   {
     title: "Ustawienia systemowe",
     icon: Users,
-    description: "Uwolnij ukryte dynamiki rodzinne i znajdź drogę do harmonii.",
+    description: "Rozpocznij transformacyjną podróż przez ustawienia systemowe prowadzone przez Wróżkę Regelindę.",
     services: [
       {
-        name: "Sesja indywidualna",
-        description: "Praca nad jednym tematem lub problemem z wykorzystaniem figur.",
-        duration: "90 min",
-        price: "300 zł",
+        name: "Sesja ustawień",
+        description: "Zbadanie i zrozumienie dynamik, wpływających na rodzinę, karierę, osobisty rozwój oraz relacje dla osiągnięcia harmonii.",
+        duration: "60 min",
+        price: "450 zł",
       },
       // {
       //   name: "Sesja pogłębiona",

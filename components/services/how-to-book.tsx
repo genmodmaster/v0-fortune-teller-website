@@ -21,7 +21,7 @@ const steps = [
 
 export function HowToBook() {
   return (
-    <section className="py-20 px-6 bg-card/30">
+    <section id="kontakt" className="py-20 px-6 bg-card/30">
       <div className="max-w-4xl mx-auto">
         {/* <div className="text-center mb-12">
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
