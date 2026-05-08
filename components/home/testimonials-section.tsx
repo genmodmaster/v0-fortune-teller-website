@@ -38,13 +38,13 @@ export function TestimonialsSection() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="relative p-8 rounded-2xl bg-card/60 border border-border/50 backdrop-blur-sm hover:border-primary/30 transition-colors"
+              className="group relative p-8 rounded-2xl bg-card/60 border border-border/50 backdrop-blur-sm hover:border-primary/40 transition-all duration-500 card-mystical hover:glow-gold"
             >
-              <Quote className="absolute top-6 right-6 w-8 h-8 text-primary/20" />
+              <Quote className="absolute top-6 right-6 w-8 h-8 text-primary/20 group-hover:text-primary/40 transition-colors" />
               
               <div className="flex gap-1 mb-4">
                 {Array.from({ length: testimonial.rating }).map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                  <Star key={i} className="w-4 h-4 fill-primary text-primary drop-shadow-[0_0_3px_var(--primary)]" />
                 ))}
               </div>
               

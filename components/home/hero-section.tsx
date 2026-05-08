@@ -4,23 +4,32 @@ import Image from "next/image"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20">
+    <section className="relative min-h-screen flex items-center justify-center pt-20 bg-mystical-gradient">
+      {/* Celestial glow overlay */}
+      <div className="absolute inset-0 bg-celestial-glow" />
+      
       {/* Decorative elements */}
-      <div className="absolute top-32 left-10 text-primary/30 animate-pulse">
+      <div className="absolute top-32 left-10 text-primary/40 animate-float">
         <Star size={24} />
       </div>
-      <div className="absolute top-40 right-20 text-accent/40 animate-pulse" style={{ animationDelay: "1s" }}>
+      <div className="absolute top-40 right-20 text-accent/50 animate-float" style={{ animationDelay: "1s" }}>
         <Moon size={32} />
       </div>
-      <div className="absolute bottom-40 left-20 text-primary/20 animate-pulse" style={{ animationDelay: "2s" }}>
+      <div className="absolute bottom-40 left-20 text-primary/30 animate-float" style={{ animationDelay: "2s" }}>
         <Sparkles size={28} />
       </div>
+      <div className="absolute top-1/3 right-10 text-accent/30 animate-twinkle" style={{ animationDelay: "0.5s" }}>
+        <Star size={16} />
+      </div>
+      <div className="absolute bottom-1/3 left-1/4 text-primary/20 animate-twinkle" style={{ animationDelay: "1.5s" }}>
+        <Sparkles size={20} />
+      </div>
 
-      <div className="max-w-4xl mx-auto px-6 text-center">
+      <div className="relative max-w-4xl mx-auto px-6 text-center z-10">
         {/* Portrait with mystical glow */}
-        <div className="relative w-48 h-48 md:w-64 md:h-64 mx-auto mb-10">
-          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/30 via-accent/20 to-primary/10 blur-2xl" />
-          <div className="relative w-full h-full rounded-full bg-card border-2 border-primary/30 overflow-hidden glow-gold">
+        <div className="relative w-48 h-48 md:w-64 md:h-64 mx-auto mb-10 animate-float" style={{ animationDuration: "8s" }}>
+          <div className="absolute -inset-4 rounded-full bg-gradient-to-br from-primary/40 via-accent/30 to-[var(--mystical-purple)]/20 blur-3xl animate-pulse-glow" />
+          <div className="relative w-full h-full rounded-full bg-card border-2 border-primary/40 overflow-hidden glow-celestial">
             <Image
               src="/images/regelinda-portrait.jpg"
               alt="Wróżka Regelinda - portret"

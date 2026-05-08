@@ -35,12 +35,12 @@ export function ServicesSection() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="group p-8 bg-card/50 rounded-2xl border border-border/50 transition-all duration-300 hover:border-primary/50 hover:bg-card/80 hover:shadow-lg hover:shadow-primary/5"
+              className="group p-8 bg-card/60 rounded-2xl border border-border/50 transition-all duration-500 hover:border-primary/50 hover:bg-card/90 card-mystical"
             >
-              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                <service.icon className="w-7 h-7 text-primary" />
+              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/20 to-[var(--mystical-purple)]/10 flex items-center justify-center mb-6 group-hover:from-primary/30 group-hover:to-accent/20 transition-all duration-500 glow-gold-hover">
+                <service.icon className="w-7 h-7 text-primary group-hover:text-glow transition-all" />
               </div>
-              <h3 className="font-serif text-2xl text-foreground mb-4">{service.title}</h3>
+              <h3 className="font-serif text-2xl text-foreground mb-4 group-hover:text-primary transition-colors">{service.title}</h3>
               <p className="text-muted-foreground leading-relaxed text-sm">{service.description}</p>
             </div>
           ))}
