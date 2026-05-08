@@ -34,7 +34,7 @@ export function AboutSection() {
             <div className="text-sm text-muted-foreground">lat doświadczenia</div>
           </div>
           <div>
-            <div className="font-serif text-3xl md:text-4xl text-primary mb-2">?1000+</div>
+            <div className="font-serif text-3xl md:text-4xl text-primary mb-2">1000+</div>
             <div className="text-sm text-muted-foreground">przeprowadzonych sesji</div>
           </div>
           <div>
