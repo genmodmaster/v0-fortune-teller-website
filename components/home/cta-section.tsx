@@ -66,7 +66,7 @@ export function CTASection() {
             {/* Social media icons */}
             <div className="flex items-center justify-center gap-6 mt-8">
               <a
-                href="https://www.facebook.com/profile.php?id=100063656aboratory"
+                href="https://www.facebook.com/WrozkaRegelinda"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center text-primary transition-all duration-300 hover:bg-primary/20 hover:border-primary/50 hover:scale-110 glow-gold-hover"
