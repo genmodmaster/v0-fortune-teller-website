@@ -74,17 +74,23 @@ const serviceCategories = [
 
 const sessionTypes = [
   {
-    icon: Monitor,
-    title: "Sesje online",
-    description: "Wygodne spotkania przez Zoom lub Skype z dowolnego miejsca na świecie.",
-    note: "Ceny takie same jak sesje stacjonarne",
-  },
-  {
     icon: MapPin,
     title: "Sesje stacjonarne",
     description: "Osobiste spotkania w kameralnym gabinecie w centrum Warszawy.",
     note: "Dostępne od poniedziałku do piątku",
   },
+  {
+    icon: Monitor,
+    title: "Sesje online",
+    description: "Wygodne spotkania przez Zoom lub Skype z dowolnego miejsca na świecie.",
+    note: "Ceny takie same jak sesje stacjonarne",
+  },
+  // {
+  //   icon: MapPin,
+  //   title: "Sesje stacjonarne",
+  //   description: "Osobiste spotkania w kameralnym gabinecie w centrum Warszawy.",
+  //   note: "Dostępne od poniedziałku do piątku",
+  // },
 ]
 
 export function ServicesList() {
@@ -152,7 +158,7 @@ export function ServicesList() {
         {/* Session Types */}
         <div className="mt-20">
           <h2 className="font-serif text-2xl md:text-3xl text-center text-foreground mb-10">
-            Formy <span className="text-primary">sesji</span>
+            Rodzaje <span className="text-primary">sesji</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">

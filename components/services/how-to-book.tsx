@@ -23,17 +23,17 @@ export function HowToBook() {
   return (
     <section className="py-20 px-6 bg-card/30">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-12">
+        {/* <div className="text-center mb-12">
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
             Jak umówić <span className="text-primary">wizytę</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
             Umówienie sesji jest proste. Wystarczy kilka kroków.
           </p>
-        </div>
+        </div> */}
 
         {/* Steps */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        {/* <div className="grid md:grid-cols-3 gap-8 mb-16">
           {steps.map((step, index) => (
             <div key={index} className="text-center">
               <div className="relative inline-block mb-4">
@@ -48,7 +48,7 @@ export function HowToBook() {
               <p className="text-sm text-muted-foreground">{step.description}</p>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* CTA Box */}
         <div className="relative">
@@ -67,14 +67,14 @@ export function HowToBook() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="tel:+48123456789"
+                href="tel:+48502903419"
                 className="px-8 py-4 bg-primary text-primary-foreground rounded-full font-medium transition-all hover:scale-105 glow-gold-hover flex items-center gap-2"
               >
                 <Phone size={18} />
                 <span>Zadzwoń</span>
               </a>
               <a
-                href="mailto:kontakt@wrozka-regelinda.pl"
+                href="mailto:hanna-prus@wp.pl"
                 className="px-8 py-4 border border-primary/50 text-foreground rounded-full font-medium transition-all hover:border-primary hover:bg-primary/10 flex items-center gap-2"
               >
                 <Mail size={18} />
