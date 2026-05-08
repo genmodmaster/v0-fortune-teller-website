@@ -3,19 +3,19 @@ import { Inter, Cormorant_Garamond } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ['latin', 'latin-ext'],
   variable: '--font-inter'
 })
 
-const cormorant = Cormorant_Garamond({ 
+const cormorant = Cormorant_Garamond({
   subsets: ['latin', 'latin-ext'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-cormorant'
 })
 
 export const metadata: Metadata = {
-  title: 'Wróżka Regelinda | Tarot, Astrologia, Ustawienia Systemowe',
+  title: 'Wróżka Regelinda | Tarot, Astrologia, Ustawienia Systemowe, Bioenergoterapia',
   description: 'Profesjonalne konsultacje tarota, astrologii i ustawień systemowych w Warszawie. Sesje online i stacjonarne. Odkryj swoją ścieżkę z Wróżką Regelindą.',
   generator: 'v0.app',
   icons: {

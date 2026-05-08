@@ -7,7 +7,7 @@ export function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center pt-20 bg-mystical-gradient">
       {/* Celestial glow overlay */}
       <div className="absolute inset-0 bg-celestial-glow" />
-      
+
       {/* Decorative elements */}
       <div className="absolute top-32 left-10 text-primary/40 animate-float">
         <Star size={24} />
@@ -44,13 +44,13 @@ export function HeroSection() {
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-semibold text-foreground mb-6 text-glow">
           <span className="gradient-gold">Wróżka Regelinda</span>
         </h1>
-        
+
         <p className="text-lg md:text-xl text-muted-foreground tracking-widest uppercase mb-8">
           Tarot • Astrologia • Ustawienia systemowe
         </p>
-        
+
         <p className="text-base md:text-lg text-foreground/80 max-w-2xl mx-auto mb-12 leading-relaxed">
-          Odkryj mądrość kart, gwiazd i energii systemowych. Pozwól, że poprowadzę Ciebie ku jaśniejszej przyszłości.
+          Odkryj mądrość kart, gwiazd i energii systemowych. Pozwól, że poprowadzę Cię ku jaśniejszej przyszłości.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
