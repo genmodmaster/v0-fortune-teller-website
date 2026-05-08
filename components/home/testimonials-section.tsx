@@ -2,21 +2,21 @@ import { Star, Quote } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Anna K.",
+    name: "Mateusz Radel",
     text: "Profesjonalizm, intuicja i niezwykła trafność – Regelinda pomogła mi zrozumieć sytuacje, które wydawały się bez wyjścia. Gorąco polecam!",
-    service: "Mateusz Radel",
+    // service: "Mateusz Radel",
     rating: 5,
   },
   {
-    name: "Marta W.",
-    text: "Ustawienia systemowe pomogły mi zrozumieć dynamikę w mojej rodzinie. Regelinda prowadzi sesje z wielką wrażliwością i profesjonalizmem.",
-    service: "Ustawienia systemowe",
+    name: "Paulina Górska",
+    text: "Dzięki konsultacji z Regelindą poczułam się pewniejsza siebie i swoich wyborów. To było inspirujące i bardzo wartościowe doświadczenie!",
+    // service: "Ustawienia systemowe",
     rating: 5,
   },
   {
-    name: "Katarzyna M.",
-    text: "Horoskop urodzeniowy, który otrzymałam, był niesamowicie szczegółowy. Regelinda ma dar do wyjaśniania skomplikowanych aspektów w przystępny sposób.",
-    service: "Astrologia",
+    name: "Magdalena Wiśniewska",
+    text: "Ustawienia systemowe u Regelindy pomogły mi lepiej zrozumieć dynamikę mojej rodziny",
+    // service: "Astrologia",
     rating: 5,
   },
 ]

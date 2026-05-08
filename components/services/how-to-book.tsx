@@ -53,18 +53,18 @@ export function HowToBook() {
         {/* CTA Box */}
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-accent/5 to-primary/10 blur-2xl -z-10" />
-          
+
           <div className="p-8 md:p-12 rounded-3xl border border-primary/30 bg-card/60 backdrop-blur-sm text-center glow-gold">
             <Sparkles className="w-8 h-8 text-primary mx-auto mb-4" />
-            
+
             <h3 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
-              Gotowa na odkrycie?
+              Gotowy na odkrycie?
             </h3>
-            
+
             <p className="text-muted-foreground mb-8 max-w-md mx-auto">
               Skontaktuj się ze mną, aby umówić sesję i rozpocząć swoją podróż ku odpowiedziom.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="tel:+48123456789"

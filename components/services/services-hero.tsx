@@ -21,10 +21,10 @@ export function ServicesHero() {
         <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">
           Usługi i <span className="text-primary">cennik</span>
         </h1>
-        
+
         <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-          Wybierz formę konsultacji, która najlepiej odpowiada Twoim potrzebom. 
-          Każda sesja jest prowadzona z pełnym zaangażowaniem i troską o Twoje dobro.
+          Wybierz formę konsultacji, która najlepiej odpowiada Twoim potrzebom.
+          Każda sesja jest prowadzona z pełnym zaangażowaniem oraz troską o Twoje dobro.
         </p>
       </div>
     </section>

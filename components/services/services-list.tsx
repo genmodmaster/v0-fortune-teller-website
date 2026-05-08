@@ -154,7 +154,7 @@ export function ServicesList() {
           <h2 className="font-serif text-2xl md:text-3xl text-center text-foreground mb-10">
             Formy <span className="text-primary">sesji</span>
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-6">
             {sessionTypes.map((type, index) => (
               <div
