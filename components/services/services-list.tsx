@@ -4,13 +4,13 @@ const serviceCategories = [
   {
     title: "Tarot",
     icon: Layers,
-    description: "Doświadcz magii kart Tarota z Regelindą, gdy odkrywa tajemnice twojej przeszłości, teraźniejszości i przyszłości. Każda sesja jest dopasowana indywidualnie, aby dać ci nowe spojrzenie na sytuację i pomóc w podjęciu decyzji.",
+    description: "Doświadcz magii kart Tarota z Wróżką Regelindą, gdy odkrywa tajemnice twojej przeszłości, teraźniejszości i przyszłości.",
     services: [
       {
-        name: "Rozkład podstawowy",
-        description: "Szybka odpowiedź na konkretne pytanie z wykorzystaniem 3-5 kart.",
-        duration: "30 min",
-        price: "120 zł",
+        name: "Sesja Kart Tarota",
+        description: "Każda sesja jest indywidualnie dopasowana, aby dać ci nowe spojrzenie na sytuację i pomóc w podjęciu decyzji.",
+        duration: "60 min",
+        price: "350 zł",
       },
       // {
       //   name: "Rozkład rozszerzony",
@@ -29,26 +29,26 @@ const serviceCategories = [
   {
     title: "Astrologia",
     icon: Sun,
-    description: "Poznaj wpływ gwiazd na Twoje życie i odkryj kosmiczny plan.",
+    description: "Odkryj swoją unikalną ścieżkę życiową dzięki spersonalizowanym horoskopom.",
     services: [
       {
-        name: "Horoskop natalny",
-        description: "Analiza horoskopu urodzeniowego z interpretacją kluczowych aspektów.",
+        name: "Horoskop osobisty",
+        description: "Dokładna analiza cech, wyzwań i możliwości na podstawie daty, godziny i miejsca urodzenia oraz potencjałów w życiu.",
         duration: "60 min",
-        price: "250 zł",
+        price: "1500 zł",
       },
-      {
-        name: "Tranzyt roczny",
-        description: "Prognoza astrologiczna na nadchodzący rok z najważniejszymi datami.",
-        duration: "60 min",
-        price: "220 zł",
-      },
-      {
-        name: "Synastria (związek)",
-        description: "Analiza zgodności dwóch horoskopów - idealna dla par i relacji.",
-        duration: "90 min",
-        price: "350 zł",
-      },
+      // {
+      //   name: "Tranzyt roczny",
+      //   description: "Prognoza astrologiczna na nadchodzący rok z najważniejszymi datami.",
+      //   duration: "60 min",
+      //   price: "220 zł",
+      // },
+      // {
+      //   name: "Synastria (związek)",
+      //   description: "Analiza zgodności dwóch horoskopów - idealna dla par i relacji.",
+      //   duration: "90 min",
+      //   price: "350 zł",
+      // },
     ],
   },
   {
@@ -62,12 +62,12 @@ const serviceCategories = [
         duration: "90 min",
         price: "300 zł",
       },
-      {
-        name: "Sesja pogłębiona",
-        description: "Kompleksowa praca nad złożonymi wzorcami rodzinnymi.",
-        duration: "120 min",
-        price: "400 zł",
-      },
+      // {
+      //   name: "Sesja pogłębiona",
+      //   description: "Kompleksowa praca nad złożonymi wzorcami rodzinnymi.",
+      //   duration: "120 min",
+      //   price: "400 zł",
+      // },
     ],
   },
 ]
