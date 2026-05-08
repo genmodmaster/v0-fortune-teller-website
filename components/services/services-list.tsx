@@ -4,7 +4,7 @@ const serviceCategories = [
   {
     title: "Tarot",
     icon: Layers,
-    description: "Odkryj mądrość kart tarota i poznaj odpowiedzi na nurtujące Cię pytania.",
+    description: "Doświadcz magii kart Tarota z Regelindą, gdy odkrywa tajemnice twojej przeszłości, teraźniejszości i przyszłości. Każda sesja jest indywidualnie dopasowana, aby dać ci nowe spojrzenie na sytuację i pomóc w podjęciu decyzji.",
     services: [
       {
         name: "Rozkład podstawowy",
@@ -12,63 +12,63 @@ const serviceCategories = [
         duration: "30 min",
         price: "120 zł",
       },
-      {
-        name: "Rozkład rozszerzony",
-        description: "Głębsza analiza sytuacji z wykorzystaniem pełnego rozkładu kart.",
-        duration: "60 min",
-        price: "200 zł",
+      // {
+      //   name: "Rozkład rozszerzony",
+      //   description: "Głębsza analiza sytuacji z wykorzystaniem pełnego rozkładu kart.",
+      //   duration: "60 min",
+      //   price: "200 zł",
+      // },
+      // {
+      //   name: "Sesja kompleksowa",
+      //   description: "Szczegółowa analiza wielu obszarów życia z interpretacją i poradami.",
+      //   duration: "90 min",
+      //   price: "280 zł",
       },
-      {
-        name: "Sesja kompleksowa",
-        description: "Szczegółowa analiza wielu obszarów życia z interpretacją i poradami.",
-        duration: "90 min",
-        price: "280 zł",
-      },
-    ],
+],
   },
-  {
-    title: "Astrologia",
+{
+  title: "Astrologia",
     icon: Sun,
-    description: "Poznaj wpływ gwiazd na Twoje życie i odkryj kosmiczny plan.",
-    services: [
-      {
-        name: "Horoskop natalny",
-        description: "Analiza horoskopu urodzeniowego z interpretacją kluczowych aspektów.",
-        duration: "60 min",
-        price: "250 zł",
-      },
-      {
-        name: "Tranzyt roczny",
-        description: "Prognoza astrologiczna na nadchodzący rok z najważniejszymi datami.",
-        duration: "60 min",
-        price: "220 zł",
-      },
-      {
-        name: "Synastria (związek)",
-        description: "Analiza zgodności dwóch horoskopów - idealna dla par i relacji.",
-        duration: "90 min",
-        price: "350 zł",
-      },
-    ],
+      description: "Poznaj wpływ gwiazd na Twoje życie i odkryj kosmiczny plan.",
+        services: [
+          {
+            name: "Horoskop natalny",
+            description: "Analiza horoskopu urodzeniowego z interpretacją kluczowych aspektów.",
+            duration: "60 min",
+            price: "250 zł",
+          },
+          {
+            name: "Tranzyt roczny",
+            description: "Prognoza astrologiczna na nadchodzący rok z najważniejszymi datami.",
+            duration: "60 min",
+            price: "220 zł",
+          },
+          {
+            name: "Synastria (związek)",
+            description: "Analiza zgodności dwóch horoskopów - idealna dla par i relacji.",
+            duration: "90 min",
+            price: "350 zł",
+          },
+        ],
   },
-  {
-    title: "Ustawienia systemowe",
+{
+  title: "Ustawienia systemowe",
     icon: Users,
-    description: "Uwolnij ukryte dynamiki rodzinne i znajdź drogę do harmonii.",
-    services: [
-      {
-        name: "Sesja indywidualna",
-        description: "Praca nad jednym tematem lub problemem z wykorzystaniem figur.",
-        duration: "90 min",
-        price: "300 zł",
-      },
-      {
-        name: "Sesja pogłębiona",
-        description: "Kompleksowa praca nad złożonymi wzorcami rodzinnymi.",
-        duration: "120 min",
-        price: "400 zł",
-      },
-    ],
+      description: "Uwolnij ukryte dynamiki rodzinne i znajdź drogę do harmonii.",
+        services: [
+          {
+            name: "Sesja indywidualna",
+            description: "Praca nad jednym tematem lub problemem z wykorzystaniem figur.",
+            duration: "90 min",
+            price: "300 zł",
+          },
+          {
+            name: "Sesja pogłębiona",
+            description: "Kompleksowa praca nad złożonymi wzorcami rodzinnymi.",
+            duration: "120 min",
+            price: "400 zł",
+          },
+        ],
   },
 ]
 
@@ -76,13 +76,13 @@ const sessionTypes = [
   {
     icon: MapPin,
     title: "Sesje stacjonarne",
-    description: "Osobiste spotkania w kameralnym gabinecie w centrum Warszawy.",
-    note: "Dostępne od poniedziałku do piątku",
+    description: "Spotkania osobiste ze mną w gabinecie - al. Jana Pawła II, wysokość ul. Grzybowskiej, w samym centrum Warszawy.",
+    note: "Dostępne 24/7",
   },
   {
     icon: Monitor,
     title: "Sesje online",
-    description: "Wygodne spotkania przez Zoom lub Skype z dowolnego miejsca na świecie.",
+    description: "Wygodne spotkania przez WhatsApp z dowolnego miejsca na świecie.",
     note: "Ceny takie same jak sesje stacjonarne",
   },
   // {
