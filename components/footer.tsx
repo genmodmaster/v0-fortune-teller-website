@@ -15,10 +15,10 @@ export function Footer() {
               <span>Warszawa</span>
             </div>
           </div>
-
+          
           <div className="flex items-center gap-6">
             <a
-              href="https://www.facebook.com/WrozkaRegelinda"
+              href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -28,7 +28,7 @@ export function Footer() {
             </a>
           </div>
         </div>
-
+        
         <div className="mt-8 pt-6 border-t border-border/30 text-center">
           <p className="text-xs text-muted-foreground">
             © {new Date().getFullYear()} Wróżka Regelinda. Wszelkie prawa zastrzeżone.
