@@ -9,12 +9,12 @@ const services = [
   {
     icon: Sun,
     title: "Astrologia",
-    description: "Poznaj wpływ gwiazd i planet na Twoje życie. Horoskopy natalne, tranzytowe i synastrie - odkryj kosmiczny plan zapisany na niebie w chwili Twoich narodzin.",
+    description: "Poznaj wpływ gwiazd oraz planet na całe Twoje życie. Horoskopy natalne, tranzytowe oraz synastrie - odkryj kosmiczny plan zapisany na niebie w chwili Twoich narodzin.",
   },
   {
     icon: Users,
     title: "Ustawienia systemowe",
-    description: "Metoda terapeutyczna pozwalająca zrozumieć i uwolnić ukryte dynamiki rodzinne. Odkryj źródła blokad i znajdź drogę do harmonii i spełnienia.",
+    description: "Metoda terapeutyczna pozwalająca zrozumieć oraz uwolnić ukryte dynamiki w rodzinie i relacjach. Odkryj źródła blokad oraz znajdź drogę do harmonii i spełnienia.",
   },
 ]
 

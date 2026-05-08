@@ -15,7 +15,7 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: 'Wróżka Regelinda | Tarot, Astrologia, Ustawienia Systemowe, Bioenergoterapia',
+  title: 'Wróżka Regelinda | Tarot, Astrologia, Ustawienia Systemowe',
   description: 'Profesjonalne konsultacje tarota, astrologii i ustawień systemowych w Warszawie. Sesje online i stacjonarne. Odkryj swoją ścieżkę z Wróżką Regelindą.',
   generator: 'v0.app',
   icons: {
