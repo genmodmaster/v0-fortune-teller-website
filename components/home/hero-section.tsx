@@ -31,7 +31,7 @@ export function HeroSection() {
           <div className="absolute -inset-4 rounded-full bg-gradient-to-br from-primary/40 via-accent/30 to-[var(--mystical-purple)]/20 blur-3xl animate-pulse-glow" />
           <div className="relative w-full h-full rounded-full bg-card border-2 border-primary/40 overflow-hidden glow-celestial">
             <Image
-              src="/images/HANKA_2.png"
+              src="/out/images/HANKA_2.png"
               alt="Wróżka Regelinda - portret"
               fill
               className="object-cover"
