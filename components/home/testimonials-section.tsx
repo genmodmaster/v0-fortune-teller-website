@@ -4,19 +4,19 @@ const testimonials = [
   {
     name: "Mateusz Radel",
     text: "Profesjonalizm, intuicja i niezwykła trafność – Regelinda pomogła mi zrozumieć sytuacje, które wydawały się bez wyjścia. Gorąco polecam!",
-    // service: "Mateusz Radel",
+    service: "",
     rating: 5,
   },
   {
     name: "Paulina Górska",
     text: "Dzięki konsultacji z Regelindą poczułam się pewniejsza siebie i swoich wyborów. To było inspirujące i bardzo wartościowe doświadczenie!",
-    // service: "Ustawienia systemowe",
+    service: "",
     rating: 5,
   },
   {
     name: "Magdalena Wiśniewska",
     text: "Ustawienia systemowe u Regelindy pomogły mi lepiej zrozumieć dynamikę mojej rodziny",
-    // service: "Astrologia",
+    service: "",
     rating: 5,
   },
 ]
